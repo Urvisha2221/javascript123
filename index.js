@@ -17,9 +17,9 @@ app.get('/login',(req,res)=>
 })
 
 app.get('/ems',(req,res)=>
-{
-   res.send("<h2>employee managment syastem</h2>")
-})
+    {
+       res.send("<h2>employee managment syastem</h2>")
+    })
 app.listen(process.env.port, () => {
   console.log(`Example app listening on port ${port}`)
 })
